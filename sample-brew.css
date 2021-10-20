@@ -1,0 +1,63 @@
+@import url(https://db.onlinewebfonts.com/c/e3e794f35cf6e4475f17d8f7a91df0a5?family=Tiamat+Condensed+SC+Regular);
+
+@font-face {
+	font-family: "Tiamat Condensed SC Regular";
+	src: url("https://db.onlinewebfonts.com/t/e3e794f35cf6e4475f17d8f7a91df0a5.eot");
+	src: url("https://db.onlinewebfonts.com/t/e3e794f35cf6e4475f17d8f7a91df0a5.eot?#iefix") format("embedded-opentype"), url("https://db.onlinewebfonts.com/t/e3e794f35cf6e4475f17d8f7a91df0a5.woff2") format("woff2"), url("https://db.onlinewebfonts.com/t/e3e794f35cf6e4475f17d8f7a91df0a5.woff") format("woff"), url("https://db.onlinewebfonts.com/t/e3e794f35cf6e4475f17d8f7a91df0a5.ttf") format("truetype");
+}
+
+.page#p1:after{ display:none; }
+.page#p2:after{ display:none; }
+
+.quote>p {
+	font-style: italic;
+	line-height: 1.5em !important;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.sup {
+	vertical-align: super;
+	font-size: 75%;
+}
+.highlight {
+	background: yellow;
+}
+.page .toc h1 {
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+.page .toc>ul {
+    margin-top: 0;
+}
+.cover-title {
+	margin-bottom: 0.25cm !important;
+	text-align: center;
+	font-family: "Tiamat Condensed SC Regular";
+	font-stretch: condensed;
+	font-size: 1.9cm;
+	color: #ffffff;
+	-webkit-text-stroke: #000 2px
+}
+.cover-title>p {
+	line-height:1em;
+}
+.cover-footer>p {
+	text-align: center;
+	font-family: 'ScalySansRemake' !important;
+	font-weight: normal;
+	font-size: 0.5cm;
+	color: #ffffff;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.main-title {
+	text-align: center;
+	font-family: "Tiamat Condensed SC Regular";
+	font-stretch: condensed;
+	font-weight: bold;
+	font-size: 1.6cm;
+	color: #58180D;
+}
